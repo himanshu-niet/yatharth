@@ -21,7 +21,7 @@ mongoose.connect("mongodb+srv://yatharthdixit:yathdi1234@cluster0.mqvkeyl.mongod
 
 //Home route
 
-const PORT = process.env.PORT || 2222
+const PORT = process.env.PORT || 2222;
 app.listen(PORT, function(){
     console.log("server started at"+PORT);
 });
