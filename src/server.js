@@ -25,3 +25,4 @@ const PORT = process.env.PORT || 2222
 app.listen(PORT, function(){
     console.log("server started at"+PORT);
 });
+module.exports = app;
